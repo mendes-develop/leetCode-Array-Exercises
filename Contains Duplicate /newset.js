@@ -1,3 +1,5 @@
 var containsDuplicate = function(nums) {
   return new Set(nums).size === nums.length ? false : true  
 };
+
+module.exports = containsDuplicate
